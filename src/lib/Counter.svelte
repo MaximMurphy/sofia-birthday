@@ -8,12 +8,15 @@
   }
 </script>
 
+<!-- Conditional render for counter view -->
 {#if count < 20}
 	<h2>How old are you today?</h2>
   <button on:click={increment}>
   {count} years old
 </button>
 {/if}
+
+<!-- Conditional render for birthday view -->
 {#if count === 20}
   <h1>HAPPY BIRTHDAY <span class="sofia">SOFIA</span>! </h1> 
   <Sparkles />
