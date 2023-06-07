@@ -30,7 +30,17 @@ h1 {
 
 h2 {
   position: relative;
-  font-size: 2vw;
+  font-size: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
 }
 
 .sofia {

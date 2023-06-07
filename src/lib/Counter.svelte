@@ -24,8 +24,8 @@
 
 <style>
   button {
-    width: 10vw;
-    height: 5vw;
+    width: 150px;
+    height: 75px;
     padding: 10px;
     background-image: linear-gradient(to bottom right, orange, yellow);
     border: solid 2px white;
