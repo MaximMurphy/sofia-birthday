@@ -2,14 +2,14 @@
   import Sparkles from '../lib/Sparkles.svelte';
   let count: number = 0
   const increment = () => {
-    if (count < 20){
+    if (count < 21){
       count += 1
     }
   }
 </script>
 
 <!-- Conditional render for counter view -->
-{#if count < 20}
+{#if count < 21}
 	<h2>How old are you today?</h2>
   <button on:click={increment}>
   {count} years old
@@ -17,7 +17,7 @@
 {/if}
 
 <!-- Conditional render for birthday view -->
-{#if count === 20}
+{#if count === 21}
   <h1>HAPPY BIRTHDAY <span class="sofia">SOFIA</span>! </h1> 
   <Sparkles />
 {/if}
